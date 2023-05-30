@@ -101,6 +101,7 @@ body {
     font-size: 17px;
     border-radius: 10%;
     border: none;
+    cursor: pointer;
 }
 
 .info {
@@ -169,3 +170,41 @@ body {
     margin-top: 0;
     padding-bottom: 75px;
 }
+
+.call-to-action {
+    background-color: var(--bg-color-cta);
+    color: var(--color-hero-main);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+    height: 60px;
+    padding: 25px;
+    margin-top: 60px;
+    margin-left: 200px;
+    margin-bottom: 60px;
+}
+
+.cta-title {
+    font-weight: 500;
+}
+
+.cta-text {
+    font-weight: 100;
+}
+
+.cta-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.cta-right button {
+    border: 2px solid var(--color-hero-main);
+    color: var(--color-hero-main);
+    background-color: var(--bg-color-button);
+    border-radius: 10%;
+    padding: 7px 30px;
+    cursor: pointer;
+}
+
