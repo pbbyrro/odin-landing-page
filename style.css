@@ -27,7 +27,7 @@
     --fw-header-info: 900;
 
     --fs-quote-text: 36px;
-    --fw-quote-text: 100 italic;
+    --fw-quote-text: 100;
 
     --font-family: 'Roboto', sans-serif;
 
@@ -131,8 +131,8 @@ body {
 }
 
 .info-image img {
-    width: 70px;
-    height: 70px;
+    width: 90px;
+    height: 90px;
     border: 3px solid #3882f6;
     border-radius: 10%;
     margin: auto;
@@ -142,4 +142,19 @@ body {
 .info-image p {
     font-weight: 500;
     color: #1f2937;
+}
+
+.quote {
+    background-color: var(--bg-color-quote);
+    color: var(--color-quote-text);
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: var(--fs-quote-text);
+    font-weight: var(--fw-quote-text);
+    justify-content: center;
+    align-items: center;
+    padding: 50px 200px;
 }
