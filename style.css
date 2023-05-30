@@ -1,0 +1,35 @@
+:root {
+    --bg-color-dark: #1f2937;
+    --bg-color-cta: #3882f6;
+    --bg-color-quote: #e5e7eb;
+
+    --color-hero-main: #f9faf8;
+    --color-hero-secondary: #e5e7eb;
+    --color-header-link: #e5e7eb;
+    --color-header-logo: #f9faf8;
+    --color-header-info: #1f2937;
+    --color-quote-text: #1f2937;
+
+    --color-button: #3882f6;
+
+    --fs-hero-main: 48px;
+    --fw-hero-main: 900;
+    
+    --fs-hero-secondary: 18px;
+    --fw-hero-secondary: 100;
+
+    --fs-header-link: 18px;
+    --fw-header-link: 100;
+
+    --fs-header-logo: 24px;
+    --fw-header-logo: 500;
+
+    --fs-header-info: 36px;
+    --fw-header-info: 900;
+
+    --fs-quote-text: 36px;
+    --fw-quote-text: 100 italic;
+
+    --font-family: 'Roboto', sans-serif;
+
+}
