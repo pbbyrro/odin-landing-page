@@ -2,6 +2,7 @@
     --bg-color-dark: #1f2937;
     --bg-color-cta: #3882f6;
     --bg-color-quote: #e5e7eb;
+    --bg-color-button: #3882f6;
 
     --color-hero-main: #f9faf8;
     --color-hero-secondary: #e5e7eb;
@@ -10,8 +11,6 @@
     --color-header-info: #1f2937;
     --color-quote-text: #1f2937;
 
-    --color-button: #3882f6;
-
     --fs-hero-main: 48px;
     --fw-hero-main: 900;
     
@@ -19,7 +18,7 @@
     --fw-hero-secondary: 100;
 
     --fs-header-link: 18px;
-    --fw-header-link: 100;
+    --fw-header-link: 500;
 
     --fs-header-logo: 24px;
     --fw-header-logo: 500;
@@ -32,4 +31,115 @@
 
     --font-family: 'Roboto', sans-serif;
 
+}
+
+body {
+    font-family: var(--font-family);
+}
+
+.container {
+    padding: 10px;
+    margin: 0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--bg-color-dark);
+}
+
+.header-left {
+    color: var(--color-header-logo);
+    font-size: var(--fs-header-logo);
+    font-weight: var(--fw-header-logo);
+}
+
+.header-right a {
+    text-decoration: none;
+    color: var(--color-header-link);
+    font-size: var(--fs-header-link);
+    font-weight: var(--fw-header-link);
+    padding: 10px;
+}
+
+.hero {
+    background-color: var(--bg-color-dark);
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero img {
+    margin-top: 50px;
+    width: 500px;
+    height: 250px;
+}
+
+.hero-left {
+    width: 400px;
+}
+
+.hero-left h1 {
+    color: var(--color-hero-main);
+    font-size: var(--fs-hero-main);
+    font-weight: var(--fw-hero-main);
+    margin-bottom: 0;
+}
+
+.hero-left p {
+    color: var(--color-hero-secondary);
+    font-size: var(--fs-hero-secondary);
+    font-weight: var(--fw-hero-secondary);
+    margin-top: 0;
+}
+
+.hero-left button {
+    margin-bottom: 100px;
+    padding: 10px 30px;
+    background-color: var(--bg-color-button);
+    color: var(--color-header-link);
+    font-size: 17px;
+    border-radius: 10%;
+    border: none;
+}
+
+.info {
+    margin-top: 40px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.info h2 {
+    display: flex;
+    justify-content: center;
+    color: #1f2937;
+}
+
+.images-and-texts {
+    display: flex;
+    padding: 10px 200px;
+    gap: 10px;
+}
+
+.info-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 200px;
+    text-align: center;
+}
+
+.info-image img {
+    width: 70px;
+    height: 70px;
+    border: 3px solid #3882f6;
+    border-radius: 10%;
+    margin: auto;
+    display: block;
+}
+
+.info-image p {
+    font-weight: 500;
+    color: #1f2937;
 }
